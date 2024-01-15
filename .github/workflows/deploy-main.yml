@@ -1,0 +1,31 @@
+name: Deploy ORKIVAR-PDFGEN main branch to dev and prod
+run-name:  Deploy ORKIVAR-PDFGEN main branch to dev and prod by @${{ github.actor }}
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy_prod_and_dev
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+jobs:
+  dev:
+    name: Deploy to dev
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
+    with:
+      env: dev
+#  prod:
+#    name: Deploy to prod
+#    uses: ./.github/workflows/deploy.yml
+#    secrets: inherit
+#    with:
+#      env: prod
