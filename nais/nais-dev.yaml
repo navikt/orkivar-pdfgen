@@ -3,6 +3,8 @@ apiVersion: nais.io/v1alpha1
 metadata:
   name: orkivar-pdfgen
   namespace: dab
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "20M"
   labels:
     team: dab
 spec:
