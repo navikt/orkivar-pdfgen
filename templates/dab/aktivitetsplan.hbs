@@ -20,5 +20,12 @@
 <h1>Navn: {{ navn }}</h1>
 <h2>Fødselsnummer: {{ fnr }}</h2>
 <h3>Journalføringstidspunkt: {{ journalfoeringstidspunkt }}</h3>
+<ul class="people_list">
+  {{#each aktiviteter}}
+    <li>{{this.tittel}}</li>
+    <li>{{this.type}}</li>
+    <li>{{this.status}}</li>
+  {{/each}}
+</ul>
 </body>
 </html>
