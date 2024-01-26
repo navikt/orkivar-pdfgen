@@ -2,133 +2,84 @@
   "navn": "Jomar Jomørsen",
   "fnr": "17051401234",
   "journalfoeringstidspunkt": "2020-03-20 10:30:00",
-  "aktiviteter":
-  [
-    {
-      "tittel": "tittel",
-      "type": "Jobb jeg har nå",
-      "status": "Planlagt",
-      "detaljer": [
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Fra dato",
-          "tekst": "05 mars 2020"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Til dato",
-          "tekst": "05 mars 2021"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Stillingsandel",
-          "tekst": "HELTID"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Arbeidsgiver",
-          "tekst": "Vikar"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Ansettelsesforhold",
-          "tekst": "7,5 timer"
-        },
-        {
-          "stil": "PARAGRAF",
-          "tittel": "Beskrivelse",
-          "tekst": "Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf"
-        },
-        {
-          "stil": "LENKE",
-          "tittel": "Lenke",
-          "tekst": "Lenke"
-        }
-      ]
-    },
-    {
-      "tittel": "tittel",
-      "type": "Jobb jeg har nå",
-      "status": "Planlagt",
-      "detaljer": [
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Fra dato",
-          "tekst": "05 mars 2020"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Til dato",
-          "tekst": "05 mars 2021"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Stillingsandel",
-          "tekst": "HELTID"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Arbeidsgiver",
-          "tekst": "Vikar"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Ansettelsesforhold",
-          "tekst": "7,5 timer"
-        },
-        {
-          "stil": "PARAGRAF",
-          "tittel": "Beskrivelse",
-          "tekst": "Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf"
-        },
-        {
-          "stil": "LENKE",
-          "tittel": "Lenke",
-          "tekst": "Lenke"
-        }
-      ]
-    },
-    {
-      "tittel": "tittel",
-      "type": "Jobb jeg har nå",
-      "status": "Planlagt",
-      "detaljer": [
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Fra dato",
-          "tekst": "05 mars 2020"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Til dato",
-          "tekst": "05 mars 2021"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Stillingsandel",
-          "tekst": "HELTID"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Arbeidsgiver",
-          "tekst": "Vikar"
-        },
-        {
-          "stil": "HALV_LINJE",
-          "tittel": "Ansettelsesforhold",
-          "tekst": "7,5 timer"
-        },
-        {
-          "stil": "PARAGRAF",
-          "tittel": "Beskrivelse",
-          "tekst": "Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf"
-        },
-        {
-          "stil": "LENKE",
-          "tittel": "Lenke",
-          "tekst": "Lenke"
-        }
-      ]
-    }
-  ]
+  "aktiviteter": {
+    "Planlagt": [
+      {
+        "tittel": "tittel",
+        "type": "Jobb jeg har nå",
+        "status": "Planlagt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": "05 mars 2020"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": "05 mars 2022"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Stillingsandel",
+            "tekst": "HELTID"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arbeidsgiver",
+            "tekst": "Vikar"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Ansettelsesforhold",
+            "tekst": "7,5 timer"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": "beskrivelse"
+          }
+        ]
+      }
+    ],
+    "Avbrutt": [
+      {
+        "tittel": "tittel",
+        "type": "Jobb jeg har nå",
+        "status": "Avbrutt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": "05 mars 2022"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": "05 mars 2023"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Stillingsandel",
+            "tekst": "HELTID"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arbeidsgiver",
+            "tekst": "Vikar"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Ansettelsesforhold",
+            "tekst": "7,5 timer"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": "beskrivelse"
+          }
+        ]
+      }
+    ]
+  }
 }
