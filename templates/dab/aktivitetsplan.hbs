@@ -9,47 +9,54 @@
         @page {
             margin: 1cm;
         }
+
         * {
             font-family: "Source Sans Pro", SourceSansPro, Source_Sans_Pro, ArialSystem, sans-serif;
             box-sizing: border-box;
         }
+
         .aktivitet {
             border: 1px solid black;
             padding: 1.5rem;
             margin-bottom: 1rem;
         }
-        .detaljtittel {
-            font-weight: bold;
-        }
+
         ul {
             margin-left: 0;
             padding-left: 0;
         }
+
         li {
             list-style: none;
         }
+
         h2 {
             font-weight: bolder;
         }
-       .type {
+
+        .type {
             text-transform: uppercase;
         }
-       .detaljer {
-           width: 100%;
-           padding: 8px;
-           display: grid;
-           margin: 0 auto;
-           grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
-           grid-auto-rows: minmax(264px, auto);
-           grid-gap: 20px;
-           margin-top: 20px
-       }
+
+        .detaljer {
+
+        }
+
+        .detalj {
+            margin-bottom: 1rem;
+        }
+        .detaljtittel {
+            font-weight: bold;
+        }
+
         .HEL_LINJE {
             width: 100%;
         }
+
         .HALV_LINJE {
             width: 45%;
         }
+
         .PARAGRAF {
             width: 100%;
         }
@@ -67,22 +74,29 @@
 <h3>Journalføringstidspunkt: {{ journalfoeringstidspunkt }}</h3>
 
 <ul class="people_list">
-  {{#each aktiviteter}}
-      <li class="aktivitet">
-      <div class="type">{{this.type}}</div>
-      <h2>{{this.tittel}}</h2>
-    <div>{{this.status}}</div>
-          <table class="detaljer">
-      {{#each this.detaljer}}
-          <div class="{{this.stil}}">
-              <div>{{this.stil}}</div>
-              <div class="detaljtittel">{{this.tittel}}</div>
-              <div>{{this.tekst}}</div>
-          </div>
-      {{/each}}
-          </table>
-      </li>
-  {{/each}}
+    {{#each aktiviteter}}
+        <li class="aktivitet">
+            <div class="type">{{this.type}}</div>
+            <h2>{{this.tittel}}</h2>
+            <div>{{this.status}}</div>
+            <div class="detaljer">
+                {{#each this.detaljer}}
+                    {{#eq this.stil "LENKE"}}
+                        <div class="HEL_LINJE detalj">
+                            <div class="detaljtittel">{{this.tittel}}</div>
+                            <div class="LENKE">{{this.tekst}}</div>
+                        </div>
+                    {{/eq}}
+                    {{#not_eq this.stil "LENKE"}}
+                        <div class="{{this.stil}} detalj">
+                            <div class="detaljtittel">{{this.tittel}}</div>
+                            <div>{{this.tekst}}</div>
+                        </div>
+                    {{/not_eq}}
+                {{/each}}
+            </div>
+        </li>
+    {{/each}}
 </ul>
 </body>
 </html>
