@@ -37,7 +37,12 @@
         {
           "stil": "PARAGRAF",
           "tittel": "Beskrivelse",
-          "tekst": "beskrivelse"
+          "tekst": "Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf. Dette er en kjempelang paragraf"
+        },
+        {
+          "stil": "LENKE",
+          "tittel": "Lenke",
+          "tekst": "Lenke"
         }
       ]
     }

@@ -11,6 +11,51 @@
         }
         * {
             font-family: "Source Sans Pro", SourceSansPro, Source_Sans_Pro, ArialSystem, sans-serif;
+            box-sizing: border-box;
+        }
+        .aktivitet {
+            border: 1px solid black;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .detaljtittel {
+            font-weight: bold;
+        }
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        li {
+            list-style: none;
+        }
+        h2 {
+            font-weight: bolder;
+        }
+       .type {
+            text-transform: uppercase;
+        }
+       .detaljer {
+           width: 100%;
+           padding: 8px;
+           display: grid;
+           margin: 0 auto;
+           grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
+           grid-auto-rows: minmax(264px, auto);
+           grid-gap: 20px;
+           margin-top: 20px
+       }
+        .HEL_LINJE {
+            width: 100%;
+        }
+        .HALV_LINJE {
+            width: 45%;
+        }
+        .PARAGRAF {
+            width: 100%;
+        }
+        .LENKE {
+            color: blue;
+            text-decoration: underline;
         }
     </style>
     <title>
@@ -20,11 +65,23 @@
 <h1>Navn: {{ navn }}</h1>
 <h2>Fødselsnummer: {{ fnr }}</h2>
 <h3>Journalføringstidspunkt: {{ journalfoeringstidspunkt }}</h3>
+
 <ul class="people_list">
   {{#each aktiviteter}}
-    <li>{{this.tittel}}</li>
-    <li>{{this.type}}</li>
-    <li>{{this.status}}</li>
+      <li class="aktivitet">
+      <div class="type">{{this.type}}</div>
+      <h2>{{this.tittel}}</h2>
+    <div>{{this.status}}</div>
+          <table class="detaljer">
+      {{#each this.detaljer}}
+          <div class="{{this.stil}}">
+              <div>{{this.stil}}</div>
+              <div class="detaljtittel">{{this.tittel}}</div>
+              <div>{{this.tekst}}</div>
+          </div>
+      {{/each}}
+          </table>
+      </li>
   {{/each}}
 </ul>
 </body>
