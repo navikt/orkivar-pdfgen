@@ -73,29 +73,15 @@
 <h2>Fødselsnummer: {{ fnr }}</h2>
 <h3>Journalføringstidspunkt: {{ journalfoeringstidspunkt }}</h3>
 
-<ul class="people_list">
-    {{#each aktiviteter}}
-        <li class="aktivitet">
-            <div class="type">{{this.type}}</div>
-            <h2>{{this.tittel}}</h2>
-            <div>{{this.status}}</div>
-            <div class="detaljer">
-                {{#each this.detaljer}}
-                    {{#eq this.stil "LENKE"}}
-                        <div class="HEL_LINJE detalj">
-                            <div class="detaljtittel">{{this.tittel}}</div>
-                            <div class="LENKE">{{this.tekst}}</div>
-                        </div>
-                    {{/eq}}
-                    {{#not_eq this.stil "LENKE"}}
-                        <div class="{{this.stil}} detalj">
-                            <div class="detaljtittel">{{this.tittel}}</div>
-                            <div>{{this.tekst}}</div>
-                        </div>
-                    {{/not_eq}}
-                {{/each}}
-            </div>
-        </li>
+<ul>
+    <!--        <h3>Planlagte aktiviteter</h3>-->
+    {{#each aktiviteter.Planlagt}}
+        {{> dab/aktivitetPartial this}}
+    {{/each}}
+    <!-- TODO: legg til flere for resten av statusene-->
+    <!--    <h3>Avbrutte aktiviteter</h3>-->
+    {{#each aktiviteter.Avbrutt}}
+        {{> dab/aktivitetPartial this}}
     {{/each}}
 </ul>
 </body>
