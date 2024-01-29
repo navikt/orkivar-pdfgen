@@ -73,16 +73,40 @@
 <h2>Fødselsnummer: {{ fnr }}</h2>
 <h3>Journalføringstidspunkt: {{ journalfoeringstidspunkt }}</h3>
 
-<ul>
-    <!--        <h3>Planlagte aktiviteter</h3>-->
-    {{#each aktiviteter.Planlagt}}
+<h3>Foreslåtte aktiviteter</h3>
+{{#each aktiviteter.Forslag}}
+    <ul>
         {{> dab/aktivitetPartial this}}
-    {{/each}}
-    <!-- TODO: legg til flere for resten av statusene-->
-    <!--    <h3>Avbrutte aktiviteter</h3>-->
-    {{#each aktiviteter.Avbrutt}}
+    </ul>
+{{/each}}
+
+<h3>Planlagte aktiviteter</h3>
+{{#each aktiviteter.Planlagt}}
+    <ul>
         {{> dab/aktivitetPartial this}}
-    {{/each}}
-</ul>
+    </ul>
+{{/each}}
+
+<h3>Aktiviteter som gjennomføres nå</h3>
+{{#each aktiviteter.Gjennomføres}}
+    <ul>
+        {{> dab/aktivitetPartial this}}
+    </ul>
+{{/each}}
+
+<h3>Fullførte aktiviteter</h3>
+{{#each aktiviteter.Fullført}}
+    <ul>
+        {{> dab/aktivitetPartial this}}
+    </ul>
+{{/each}}
+
+<h3>Avbrutte aktiviteter</h3>
+{{#each aktiviteter.Avbrutt}}
+    <ul>
+        {{> dab/aktivitetPartial this}}
+    </ul>
+{{/each}}
+
 </body>
 </html>
