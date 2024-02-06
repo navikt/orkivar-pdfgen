@@ -17,4 +17,13 @@
             {{/not_eq}}
         {{/each}}
     </div>
+    {{#if this.meldinger}}
+        <div class="meldinger">
+            <h3>Dialog</h3>
+            {{#each this.meldinger}}
+                <div>{{this.avsender}} - {{this.sendt}}</div>
+                <div>{{this.tekst}}</div>
+            {{/each}}
+        </div>
+    {{/if}}
 </li>
