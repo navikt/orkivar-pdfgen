@@ -39,6 +39,22 @@
             "tittel": "Beskrivelse",
             "tekst": "beskrivelse"
           }
+        ],
+        "meldinger": [
+          {
+            "avsender": "VEILEDER",
+            "sendt": "05 februar 2024 kl. 02:31",
+            "lest": true,
+            "viktig": false,
+            "tekst": "wehfuiehwf\n\nHilsen F_994188 E_994188"
+          },
+          {
+            "avsender": "BRUKER",
+            "sendt": "05 februar 2024 kl. 02:31",
+            "lest": true,
+            "viktig": false,
+            "tekst": "Jada"
+          }
         ]
       }
     ],
@@ -78,8 +94,24 @@
             "tittel": "Beskrivelse",
             "tekst": "beskrivelse"
           }
-        ]
+        ],
+        "meldinger": []
       }
     ]
-  }
+  },
+  "dialogTråder": [
+    {
+      "overskrift": "Penger",
+      "meldinger": [
+        {
+          "avsender": "BRUKER",
+          "sendt": "05 februar 2024 kl. 02:29",
+          "lest": true,
+          "viktig": false,
+          "tekst": "Jeg liker NAV. NAV er snille!"
+        }
+      ],
+      "egenskaper": []
+    }
+  ]
 }
