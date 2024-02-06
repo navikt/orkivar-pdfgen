@@ -1,4 +1,6 @@
 {{#each this.meldinger}}
-    <div>{{this.avsender}} - {{this.sendt}}</div>
-    <div>{{this.tekst}}</div>
+    <div class="melding">
+        <div>{{this.avsender}} - {{this.sendt}}</div>
+        <div>{{{this.tekst}}}</div>
+    </div>
 {{/each}}

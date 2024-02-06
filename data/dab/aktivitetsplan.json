@@ -38,6 +38,11 @@
             "stil": "PARAGRAF",
             "tittel": "Beskrivelse",
             "tekst": "beskrivelse"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Samtalereferat",
+            "tekst": "Dette er et langt samtalereferat med linjeskift.<br/><br/>Hilsen F_994350 E_994350"
           }
         ],
         "meldinger": [
