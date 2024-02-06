@@ -15,7 +15,7 @@
             box-sizing: border-box;
         }
 
-        .aktivitet {
+        .aktivitet, .dialogTråd {
             border: 1px solid black;
             padding: 1.5rem;
             margin-bottom: 1rem;
@@ -111,6 +111,12 @@
         {{> dab/aktivitetPartial this}}
     </ul>
 {{/each}}
-
+<h3>Dialoger</h3>
+{{#each dialogTråder}}
+    <div class="dialogTråd">
+        <h4>{{this.overskrift}}</h4>
+            {{> dab/meldingerPartial this}}
+    </div>
+{{/each}}
 </body>
 </html>

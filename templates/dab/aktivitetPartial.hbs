@@ -20,10 +20,7 @@
     {{#if this.meldinger}}
         <div class="meldinger">
             <h3>Dialog</h3>
-            {{#each this.meldinger}}
-                <div>{{this.avsender}} - {{this.sendt}}</div>
-                <div>{{this.tekst}}</div>
-            {{/each}}
+        {{> dab/meldingerPartial this}}
         </div>
     {{/if}}
 </li>
