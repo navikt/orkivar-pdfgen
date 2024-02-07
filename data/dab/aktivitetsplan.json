@@ -42,7 +42,7 @@
           {
             "stil": "PARAGRAF",
             "tittel": "Samtalereferat",
-            "tekst": "Dette er et langt samtalereferat med linjeskift.<br/><br/>Hilsen F_994350 E_994350"
+            "tekst": "Dette er et langt samtalereferat med linjeskift.\n\nHilsen F_994350 E_994350"
           }
         ],
         "meldinger": [
@@ -51,7 +51,7 @@
             "sendt": "05 februar 2024 kl. 02:31",
             "lest": true,
             "viktig": false,
-            "tekst": "wehfuiehwf<br/><br/>Hilsen F_994188 E_994188"
+            "tekst": "wehfuiehwf\n\nHilsen F_994188 E_994188"
           },
           {
             "avsender": "BRUKER",

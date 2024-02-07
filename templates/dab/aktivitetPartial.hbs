@@ -13,7 +13,7 @@
             {{#not_eq this.stil "LENKE"}}
                 <div class="{{this.stil}} detalj">
                     <div class="detaljtittel">{{this.tittel}}</div>
-                    <div>{{{this.tekst}}}</div>
+                    <div>{{breaklines this.tekst}}</div>
                 </div>
             {{/not_eq}}
         {{/each}}

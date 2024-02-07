@@ -1,6 +1,6 @@
 {{#each this.meldinger}}
     <div class="melding">
         <div>{{this.avsender}} - {{this.sendt}}</div>
-        <div>{{{this.tekst}}}</div>
+        <div>{{ breaklines this.tekst}}</div>
     </div>
 {{/each}}
