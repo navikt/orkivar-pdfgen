@@ -1,6 +1,13 @@
 <li class="aktivitet">
     <div class="type">{{this.type}}</div>
     <h2 class="tittel">{{this.tittel}}</h2>
+    <div class="etiketter">
+        {{#each this.etiketter}}
+            <div class="etikett etikett-{{this.stil}}">
+                {{ this.tekst }}
+            </div>
+        {{/each}}
+    </div>
     <div class="detaljer">
         {{#each this.detaljer}}
             {{#eq this.stil "LENKE"}}

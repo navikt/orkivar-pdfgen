@@ -60,6 +60,10 @@
             "viktig": false,
             "tekst": "Jada"
           }
+        ],
+        "etiketter": [
+          { "stil": "AVTALT", "tekst": "Avtalt med NAV" },
+          { "stil": "NEGATIVE", "tekst": "Ikke fått jobben" }
         ]
       }
     ],
@@ -105,7 +109,10 @@
             "tekst": "nav.no"
           }
         ],
-        "meldinger": []
+        "meldinger": [],
+        "etiketter": [
+          { "stil": "POSITIVE", "tekst": "Sendt søknad og venter på svar" }
+        ]
       }
     ]
   },
