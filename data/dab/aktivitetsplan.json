@@ -5,7 +5,7 @@
   "aktiviteter": {
     "Planlagt": [
       {
-        "tittel": "tittel",
+        "tittel": "En jobb jeg har nå",
         "type": "Jobb jeg har nå",
         "status": "Planlagt",
         "detaljer": [
@@ -66,7 +66,7 @@
     "Avbrutt": [
       {
         "tittel": "tittel",
-        "type": "Jobb jeg har nå",
+        "type": "Enda en jobb jeg har nå",
         "status": "Avbrutt",
         "detaljer": [
           {
@@ -97,7 +97,12 @@
           {
             "stil": "PARAGRAF",
             "tittel": "Beskrivelse",
-            "tekst": "beskrivelse"
+            "tekst": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "stil": "LENKE",
+            "tittel": "Lenke",
+            "tekst": "nav.no"
           }
         ],
         "meldinger": []

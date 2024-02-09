@@ -1,12 +1,12 @@
 <li class="aktivitet">
     <div class="type">{{this.type}}</div>
-    <h2>{{this.tittel}}</h2>
+    <h2 class="tittel">{{this.tittel}}</h2>
     <div class="detaljer">
         {{#each this.detaljer}}
             {{#eq this.stil "LENKE"}}
                 <div class="HEL_LINJE detalj">
                     <div class="detaljtittel">{{this.tittel}}</div>
-                    <div class="LENKE">{{this.tekst}}</div>
+                    <div class="LENKE detaljtekst">{{this.tekst}}</div>
                 </div>
             {{/eq}}
 
@@ -20,7 +20,7 @@
     </div>
     {{#if this.meldinger}}
         <div class="meldinger">
-            <h3>Dialog</h3>
+            <h4>Dialog</h4>
         {{> dab/meldingerPartial this}}
         </div>
     {{/if}}
