@@ -212,13 +212,6 @@
     </ul>
 {{/each}}
 {{/if}}
-
-<h4>Dialoger</h4>
-{{#each dialogtråder}}
-    <div class="dialogtråd">
-        <h4>{{this.overskrift}}</h4>
-            {{> dab/meldingerPartial this}}
-    </div>
-{{/each}}
+{{> dab/dialogPartial this}}
 </body>
 </html>

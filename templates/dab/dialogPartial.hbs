@@ -1,0 +1,12 @@
+<h4>Dialoger</h4>
+{{#each dialogtråder}}
+    <div class="dialogtråd">
+        <h4>{{this.overskrift}}</h4>
+        {{#each this.meldinger}}
+            <div class="melding">
+                <div>{{#eq this.avsender "BRUKER"}}{{@../../navn}}{{/eq}}{{#eq this.avsender "VEILEDER"}}NAV{{/eq}} - {{this.sendt}}</div>
+                <div>{{ breaklines this.tekst}}</div>
+            </div>
+        {{/each}}
+    </div>
+{{/each}}
