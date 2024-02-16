@@ -19,13 +19,6 @@
             color: #262626;
         }
 
-        .aktivitet, .dialogtråd {
-            border: 1px solid black;
-            padding: 1.5rem;
-            margin-bottom: 1rem;
-            border-radius: 4px;
-        }
-
         ul {
             margin-left: 0;
             padding-left: 0;
@@ -53,6 +46,17 @@
             line-height: 28px; /* 140% */
             letter-spacing: -0.02px;
             display: inline-block;
+        }
+
+        .adressefelt {
+            margin-top: 2rem;
+        }
+
+        .aktivitet, .dialogtråd {
+            border: 1px solid black;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
         }
 
         .type {
@@ -170,8 +174,8 @@
         </clipPath>
     </defs>
 </svg>
-<table>
-    <tr>{{ navn }}</tr>
+<table class="adressefelt">
+    <tr><b>{{ navn }}</b></tr>
     <tr>Fn.nr: {{ fnr }}</tr>
 </table>
 
