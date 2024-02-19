@@ -1,6 +1,8 @@
 {
   "navn": "Jomar Jomørsen",
   "fnr": "17051401234",
+  "oppfølgingsperiodeStart": "19 oktober 2021",
+  "oppfølgingsperiodeSlutt": null,
   "journalfoeringstidspunkt": "2020-03-20 10:30:00",
   "aktiviteter": {
     "Planlagt": [

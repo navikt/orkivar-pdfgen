@@ -179,7 +179,13 @@
     <tr>Fn.nr: {{ fnr }}</tr>
 </table>
 
-<p class="margin-top:4px ">Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }}.</p>
+<p class="margin-top:4px ">
+    {{#if oppfølgingsperiodeSlutt }}
+        Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }} og som ble avsluttet {{ oppfølgingsperiodeSlutt }}.
+    {{else}}
+        Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
+    {{/if}}
+</p>
 
 {{#if aktiviteter.Forslag}}<h3>Foreslåtte aktiviteter</h3>
 {{#each aktiviteter.Forslag}}
