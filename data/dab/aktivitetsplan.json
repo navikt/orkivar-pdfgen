@@ -66,7 +66,24 @@
         "etiketter": [
           { "stil": "AVTALT", "tekst": "Avtalt med NAV" },
           { "stil": "NEGATIVE", "tekst": "Ikke fått jobben" }
-        ]
+        ],
+        "historikk": [
+          {
+            "aktør": "VEILEDER",
+            "tidspunkt": "05 februar 2024 kl. 10:00",
+            "hendelse": "Opprettet aktiviteten."
+          },
+          {
+            "aktør": "VEILEDER",
+            "tidspunkt": "06 februar 2024 kl. 13:37",
+            "hendelse": "Flyttet aktiviteten fra Planlegger til Gjennomfører."
+          },
+          {
+            "aktør": "VEILEDER",
+            "tidspunkt": "06 februar 2024 kl. 13:38",
+            "hendelse": "Endret tidpsunkt på aktiviteten."
+          }
+      ]
       }
     ],
     "Avbrutt": [

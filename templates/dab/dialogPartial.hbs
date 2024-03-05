@@ -1,7 +1,7 @@
 <h3>Dialogen med veileder</h3>
 {{#each dialogtråder}}
     <div class="dialogtråd">
-        <h4>{{this.overskrift}}</h4>
+        <div class="dialogtrådOverskrift">{{this.overskrift}}</div>
         {{#each this.meldinger}}
             <div class="melding melding-{{this.avsender}}">
                 <div class="melding-avsender">{{#eq this.avsender "BRUKER"}}{{@../../navn}}{{/eq}}{{#eq this.avsender "VEILEDER"}}NAV{{/eq}} - {{this.sendt}}</div>

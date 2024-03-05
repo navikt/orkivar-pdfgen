@@ -1,0 +1,6 @@
+{{#each this.historikk}}
+    <div class="historikkHendelse">
+        <div class="melding-avsender">{{#eq this.aktør "BRUKER"}}{{@../../navn}}{{/eq}}{{#eq this.aktør "VEILEDER"}}NAV{{/eq}} - {{this.tidspunkt}}</div>
+        <div>{{ breaklines this.hendelse}}</div>
+    </div>
+{{/each}}
