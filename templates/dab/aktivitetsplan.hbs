@@ -194,7 +194,8 @@
         Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
     {{/if}}
 </p>
-
+{{#if mål}}<h3>Mitt mål</h3>
+<p>{{mål}}</p>{{/if}}
 {{#if aktiviteter.Forslag}}<h3>Foreslåtte aktiviteter</h3>
 {{#each aktiviteter.Forslag}}
     <ul>
