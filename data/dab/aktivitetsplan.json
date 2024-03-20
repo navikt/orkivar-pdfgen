@@ -66,6 +66,14 @@
         "etiketter": [
           { "stil": "AVTALT", "tekst": "Avtalt med NAV" },
           { "stil": "NEGATIVE", "tekst": "Ikke fått jobben" }
+        ],
+        "eksterneHandlinger": [
+          {
+            "tekst": "Tekst",
+            "subtekst": null,
+            "url": "http://localhost:8080",
+            "klikkbar": false
+          }
         ]
       }
     ],
@@ -114,7 +122,8 @@
         "meldinger": [],
         "etiketter": [
           { "stil": "POSITIVE", "tekst": "Sendt søknad og venter på svar" }
-        ]
+        ],
+        "eksterneHandlinger": []
       }
     ]
   },
