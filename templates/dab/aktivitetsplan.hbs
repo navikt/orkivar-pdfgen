@@ -172,17 +172,25 @@
             border: 0.5px solid black;
             padding: 16px;
             border-radius: 2px;
-            font-size: 20px;
-            font-weight: 600;
             margin-bottom: 1rem;
             width: 100%;
             display: inline-block;
+            position: relative; /* Set position to relative */
         }
-        .eksternlenkeTekst {
+        .eksternLenkeTekst {
             float: left;
         }
+        .eksternlenkeTekstTittel {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .eksternLenkeSubTekst {
+            font-size: 18px;
+        }
         .eksternlenkeIkon {
-            float: right;
+            position: absolute;
+            top: 60%;
+            right: 16px;
         }
     </style>
     <title>Aktivitetsplan</title>
