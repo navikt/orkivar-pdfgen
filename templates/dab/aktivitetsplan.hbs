@@ -39,14 +39,14 @@
             letter-spacing: -0.256px;
             margin-bottom: 8px;
         }
-        h4 {
+        .dialogtrådOverskrift {
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
             line-height: 32px;
             letter-spacing: -0.048px;
         }
-        h5 {
+        .h5 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
@@ -113,12 +113,12 @@
             color: blue;
             text-decoration: underline;
         }
-        .meldinger {
+        .meldinger, .historikk {
             border-top: 1px solid gray;
             margin-bottom: 1.5rem;
         }
-        .melding {
-            margin-top: 1.5rem;
+        .melding, .historikkHendelse {
+            margin-top: 8px;
         }
         .melding-BRUKER {
             margin-left: 32px;
@@ -157,16 +157,18 @@
             border: 1px solid #949292;
             background-color: #cecece;
         }
-        .dialogOverskrift {
-            width: 100%;
-            margin-bottom: 1rem;
+        .dialogOverskrift, .historikkOverskrift {
+            margin-bottom: 8px;
+            margin-top: 16px;
         }
-        .dialogIkon {
+        .dialogIkon, .historikkIkon {
             display: inline-block;
             padding-right: 2px;
+            vertical-align: bottom;
         }
-        .dialogTittel {
+        .dialogTittel, .historikkTittel {
             display: inline-block;
+            vertical-align: bottom;
         }
         .eksternLenke {
             border: 0.5px solid black;
