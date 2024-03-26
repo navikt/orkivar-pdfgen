@@ -170,6 +170,30 @@
             display: inline-block;
             vertical-align: bottom;
         }
+        .eksternLenke {
+            border: 0.5px solid black;
+            padding: 16px;
+            border-radius: 2px;
+            margin-bottom: 1rem;
+            width: 100%;
+            display: inline-block;
+            position: relative; /* Set position to relative */
+        }
+        .eksternLenkeTekst {
+            float: left;
+        }
+        .eksternlenkeTekstTittel {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .eksternLenkeSubTekst {
+            font-size: 18px;
+        }
+        .eksternlenkeIkon {
+            position: absolute;
+            top: 60%;
+            right: 16px;
+        }
     </style>
     <title>Aktivitetsplan</title>
 </head>
@@ -196,7 +220,8 @@
         Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
     {{/if}}
 </p>
-
+{{#if mål}}<h3>Mitt mål</h3>
+<p>{{mål}}</p>{{/if}}
 {{#if aktiviteter.Forslag}}<h3>Foreslåtte aktiviteter</h3>
 {{#each aktiviteter.Forslag}}
     <ul>
