@@ -67,23 +67,20 @@
           { "stil": "AVTALT", "tekst": "Avtalt med NAV" },
           { "stil": "NEGATIVE", "tekst": "Ikke fått jobben" }
         ],
-        "historikk": [
-          {
-            "aktør": "VEILEDER",
-            "tidspunkt": "05 februar 2024 kl. 10:00",
-            "hendelse": "Opprettet aktiviteten."
-          },
-          {
-            "aktør": "VEILEDER",
-            "tidspunkt": "06 februar 2024 kl. 13:37",
-            "hendelse": "Flyttet aktiviteten fra Planlegger til Gjennomfører."
-          },
-          {
-            "aktør": "VEILEDER",
-            "tidspunkt": "06 februar 2024 kl. 13:38",
-            "hendelse": "Endret tidpsunkt på aktiviteten."
-          }
-      ]
+        "historikk" : {
+          "endringer" : [
+            {
+              "formattertTidspunkt" : "25. mars 2024 kl. 08:00",
+              "beskrivelseForVeileder" : "Bruker opprettet aktiviteten",
+              "beskrivelseForBruker" : "Du opprettet aktiviteten"
+            },
+            {
+              "formattertTidspunkt" : "4. september 2024 kl. 08:00",
+              "beskrivelseForVeileder" : "Flyttet aktiviteten fra Planlegger til Gjennomfører",
+              "beskrivelseForBruker" : "Du flyttet aktiviteten fra Planlegger til Gjennomfører"
+            }
+          ]
+        }
       }
     ],
     "Avbrutt": [
@@ -131,7 +128,16 @@
         "meldinger": [],
         "etiketter": [
           { "stil": "POSITIVE", "tekst": "Sendt søknad og venter på svar" }
-        ]
+        ],
+        "historikk" : {
+          "endringer" : [
+            {
+              "formattertTidspunkt" : "25. mars 2024 kl. 08:00",
+              "beskrivelseForVeileder" : "Bruker opprettet aktiviteten",
+              "beskrivelseForBruker" : "Du opprettet aktiviteten"
+            }
+          ]
+      }
       }
     ]
   },
