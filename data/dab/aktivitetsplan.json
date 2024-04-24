@@ -71,13 +71,11 @@
           "endringer" : [
             {
               "formattertTidspunkt" : "25. mars 2024 kl. 08:00",
-              "beskrivelseForVeileder" : "Bruker opprettet aktiviteten",
-              "beskrivelseForBruker" : "Du opprettet aktiviteten"
+              "beskrivelse" : "Bruker opprettet aktiviteten"
             },
             {
               "formattertTidspunkt" : "4. september 2024 kl. 08:00",
-              "beskrivelseForVeileder" : "Flyttet aktiviteten fra Planlegger til Gjennomfører",
-              "beskrivelseForBruker" : "Du flyttet aktiviteten fra Planlegger til Gjennomfører"
+              "beskrivelse" : "Flyttet aktiviteten fra Planlegger til Gjennomfører"
             }
           ]
         },
