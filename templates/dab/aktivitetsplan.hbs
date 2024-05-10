@@ -32,11 +32,9 @@
             font-weight: bolder;
         }
         h3 {
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 600;
+            font-size: 28px;
+            font-weight: 500;
             line-height: 40px; /* 125% */
-            letter-spacing: -0.256px;
             margin-bottom: 8px;
         }
         .dialogtrådOverskrift {
@@ -44,14 +42,12 @@
             font-style: normal;
             font-weight: 600;
             line-height: 32px;
-            letter-spacing: -0.048px;
         }
         .h5 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
             line-height: 28px; /* 140% */
-            letter-spacing: -0.02px;
             display: inline-block;
         }
 
@@ -68,7 +64,6 @@
 
         .type {
             text-transform: uppercase;
-            letter-spacing: 0.56px;
             font-size: 14px;
             line-height: 20px;
             /*display: inline-block;*/
@@ -77,20 +72,17 @@
             font-size: 24px;
             font-weight: 600;
             line-height: 32px;
-            letter-spacing: -0.048px;
         }
         .detalj {
             margin-bottom: 16px;
         }
         .detaljtekst {
-            letter-spacing: 0.032px;
             line-height: 20px;
             font-size: 16px;
         }
         .detaljtittel {
             font-size: 18px;
             line-height: 24px;
-            letter-spacing: -0.03px;
             font-weight: 600;
         }
 
@@ -223,7 +215,8 @@
         Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
     {{/if}}
 </p>
-{{#if mål}}<h3>Mitt mål</h3>
+{{#if mål}}<h3>
+    Mitt mål</h3>
 <p>{{mål}}</p>{{/if}}
 {{#if aktiviteter.Forslag}}<h3>Foreslåtte aktiviteter</h3>
 {{#each aktiviteter.Forslag}}
