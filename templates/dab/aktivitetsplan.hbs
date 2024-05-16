@@ -51,7 +51,7 @@
             display: inline-block;
         }
 
-        .adressefelt {
+        .personinfo {
             margin-top: 2rem;
         }
 
@@ -203,10 +203,10 @@
         </clipPath>
     </defs>
 </svg>
-<table class="adressefelt">
-    <tr><b>{{ navn }}</b></tr>
-    <tr>F.nr: {{ fnr }}</tr>
-</table>
+<div class="personinfo">
+    <b>{{ navn }}</b><br/>
+    F.nr: {{ fnr }}
+</div>
 
 <p class="margin-top:4px ">
     {{#if oppfølgingsperiodeSlutt }}
