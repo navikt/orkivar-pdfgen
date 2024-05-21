@@ -1,265 +1,549 @@
 {
-  "navn": "Jomar Jomørsen",
-  "fnr": "17051401234",
-  "oppfølgingsperiodeStart": "19 oktober 2021",
+  "navn": "TØRR LOMMEBOK",
+  "fnr": "123456 12345",
+  "oppfølgingsperiodeStart": "9. juni 2023",
   "oppfølgingsperiodeSlutt": null,
-  "journalfoeringstidspunkt": "2020-03-20 10:30:00",
+  "oppfølgingsperiodeId": "8b8eeecc-c371-4c4a-9cf1-561b0e1e8e82",
   "aktiviteter": {
-    "Planlagt": [
-      {
-        "tittel": "En jobb jeg har nå",
-        "type": "Jobb jeg har nå",
-        "status": "Planlagt",
-        "detaljer": [
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Fra dato",
-            "tekst": "05 mars 2020"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Til dato",
-            "tekst": "05 mars 2022"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Stillingsandel",
-            "tekst": "HELTID"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Arbeidsgiver",
-            "tekst": "Vikar"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Ansettelsesforhold",
-            "tekst": "7,5 timer"
-          },
-          {
-            "stil": "PARAGRAF",
-            "tittel": "Beskrivelse",
-            "tekst": "beskrivelse"
-          },
-          {
-            "stil": "PARAGRAF",
-            "tittel": "Samtalereferat",
-            "tekst": "Dette er et langt samtalereferat med linjeskift.\n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.\n\nMany desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n Vi ønsker å snakke med deg om aktiviteter du har gjennomført og videre oppfølging. \n\nHilsen F_994350 E_994350"
-
-          }
-        ],
-        "meldinger": [
-          {
-            "avsender": "VEILEDER",
-            "sendt": "05 februar 2024 kl. 02:31",
-            "lest": true,
-            "viktig": false,
-            "tekst": "wehfuiehwf\n\nHilsen F_994188 E_994188"
-          },
-          {
-            "avsender": "BRUKER",
-            "sendt": "05 februar 2024 kl. 02:31",
-            "lest": true,
-            "viktig": false,
-            "tekst": "Jada"
-          }
-        ],
-        "etiketter": [
-          { "stil": "AVTALT", "tekst": "Avtalt med NAV" },
-          { "stil": "NEGATIVE", "tekst": "Ikke fått jobben" }
-        ],
-        "historikk" : {
-          "endringer" : [
-            {
-              "formattertTidspunkt" : "25. mars 2024 kl. 08:00",
-              "beskrivelse" : "Bruker opprettet aktiviteten"
-            },
-            {
-              "formattertTidspunkt" : "4. september 2024 kl. 08:00",
-              "beskrivelse" : "Flyttet aktiviteten fra Planlegger til Gjennomfører"
-            }
-          ]
-        },
-        "eksterneHandlinger": [
-        ]
-      }
-    ],
-    "Gjennomføres": [
-      {
-        "tittel": "Saltrød og Høneby - med oppgave",
-        "type": "Avtale midlertidig lønnstilskudd",
-        "status": "Gjennomfører",
-        "detaljer": [
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Fra dato",
-            "tekst": "21 august 2020"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Til dato",
-            "tekst": "30 november 2025"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Stillingsandel",
-            "tekst": "HELTID"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Arbeidsgiver",
-            "tekst": "Vikar"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Ansettelsesforhold",
-            "tekst": "7,5 timer"
-          },
-          {
-            "stil": "PARAGRAF",
-            "tittel": "Beskrivelse",
-            "tekst": "Dette er en ekstern avtale om midlertidig lønnstilskudd med lenke"
-          },
-          {
-            "stil": "PARAGRAF",
-            "tittel": "Samtalereferat",
-            "tekst": "Dette er et langt samtalereferat med linjeskift.\n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. \n\nMany desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\nHilsen F_994350 E_994350"
-          }
-        ],
-        "meldinger": [
-          {
-            "avsender": "VEILEDER",
-            "sendt": "05 februar 2024 kl. 09:20",
-            "lest": true,
-            "viktig": false,
-            "tekst": "Hei! Dette er en avtale om midlertidig lønnstilskudd"
-          },
-          {
-            "avsender": "BRUKER",
-            "sendt": "05 februar 2024 kl. 11:31",
-            "lest": true,
-            "viktig": false,
-            "tekst": "Tusen takk"
-          }
-        ],
-        "etiketter": [
-          { "stil": "AVTALT", "tekst": "Avtalt med NAV" }
-        ],
-        "eksterneHandlinger": [
-          {
-            "tekst": "Gå til avtalen",
-            "subtekst": "Undertekst til avtale",
-            "url": "http://localhost:8080"
-          }
-        ]
-      }
-    ],
     "Avbrutt": [
       {
-        "tittel": "tittel",
-        "type": "Jobbrettet egenaktivitet",
+        "tittel": "Avklaring hos Tinn Kommune",
+        "type": "Avklaring",
         "status": "Avbrutt",
         "detaljer": [
           {
             "stil": "HALV_LINJE",
             "tittel": "Fra dato",
-            "tekst": "05 mars 2022"
+            "tekst": ""
           },
           {
             "stil": "HALV_LINJE",
             "tittel": "Til dato",
-            "tekst": "05 mars 2023"
+            "tekst": ""
           },
           {
             "stil": "HALV_LINJE",
-            "tittel": "Stillingsandel",
-            "tekst": "HELTID"
+            "tittel": "Status for deltakelse",
+            "tekst": "Avbrutt utkast - årsak: trenger annen støtte"
           },
           {
             "stil": "HALV_LINJE",
-            "tittel": "Arbeidsgiver",
-            "tekst": "Vikar"
-          },
-          {
-            "stil": "HALV_LINJE",
-            "tittel": "Ansettelsesforhold",
-            "tekst": "7,5 timer"
+            "tittel": "Arrangør",
+            "tekst": "Tinn Kommune"
           },
           {
             "stil": "PARAGRAF",
             "tittel": "Beskrivelse",
-            "tekst": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          },
-          {
-            "stil": "LENKE",
-            "tittel": "Lenke",
-            "tekst": "nav.no"
+            "tekst": null
           }
         ],
         "meldinger": [],
         "etiketter": [
-          { "stil": "POSITIVE", "tekst": "Sendt søknad og venter på svar" }
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
         ],
-        "historikk" : {
-          "endringer" : [
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
             {
-              "formattertTidspunkt" : "25. mars 2024 kl. 08:00",
-              "beskrivelseForVeileder" : "Bruker opprettet aktiviteten",
-              "beskrivelseForBruker" : "Du opprettet aktiviteten"
+              "formattertTidspunkt": "19. februar 2024 kl. 15.16",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.16",
+              "beskrivelse": "NAV flyttet aktiviteten fra Bruker er interessert til Avbrutt"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.57",
+              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
             }
           ]
+        }
       },
-        "eksterneHandlinger": []
+      {
+        "tittel": "Avklaring hos Tinn Kommune",
+        "type": "Avklaring",
+        "status": "Avbrutt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Status for deltakelse",
+            "tekst": "Avbrutt utkast - årsak: møter ikke opp"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arrangør",
+            "tekst": "Tinn Kommune"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": null
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.52",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.52",
+              "beskrivelse": "NAV flyttet aktiviteten fra Bruker er interessert til Avbrutt"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.14",
+              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
+            }
+          ]
+        }
+      }
+    ],
+    "Gjennomføres": [
+      {
+        "tittel": "Oppfølging hos Tinn Kommune",
+        "type": "Oppfølging",
+        "status": "Gjennomføres",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": "18. februar 2024"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Status for deltakelse",
+            "tekst": "Deltar"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arrangør",
+            "tekst": "Tinn Kommune"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": null
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.11",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.11",
+              "beskrivelse": "NAV flyttet aktiviteten fra Planlagt til Gjennomføres"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.59",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.59",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.59",
+              "beskrivelse": "NAV flyttet aktiviteten fra Bruker er interessert til Planlagt"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 14.59",
+              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
+            }
+          ]
+        }
+      },
+      {
+        "tittel": "Avtale om å søke jobber",
+        "type": "Jobbsøking",
+        "status": "Gjennomføres",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": "14. september 2023"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": "23. desember 2023"
+          },
+          {
+            "stil": "HEL_LINJE",
+            "tittel": "Antall søknader i perioden",
+            "tekst": "0"
+          },
+          {
+            "stil": "HEL_LINJE",
+            "tittel": "Antall søknader i uka",
+            "tekst": "5"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": "NAV forventer at du søker omtrent 5 stillinger i uken.\nDet er viktig at du søker på de jobbene du mener du er kvalifisert for. Det er også viktig å søke på mange stillinger, det øker sjansene dine til å finne en jobb.\nHer kan du finne ledige stillinger: https://arbeidsplassen.nav.no/stillinger"
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV flyttet aktiviteten fra Planlagt til Gjennomføres"
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.51",
+              "beskrivelse": "NAV endret til dato på aktiviteten fra 23. desember 2023 til 23. desember 2023"
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.51",
+              "beskrivelse": "NAV endret til dato på aktiviteten fra 14. desember 2023 til 23. desember 2023"
+            },
+            {
+              "formattertTidspunkt": "14. september 2023 kl. 14.14",
+              "beskrivelse": "NAV merket aktiviteten som \"Avtalt med NAV\""
+            },
+            {
+              "formattertTidspunkt": "14. september 2023 kl. 14.14",
+              "beskrivelse": "NAV opprettet aktiviteten"
+            }
+          ]
+        }
+      },
+      {
+        "tittel": "gfd",
+        "type": "Samtalereferat",
+        "status": "Gjennomføres",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Dato",
+            "tekst": "29. desember 2023"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Møteform",
+            "tekst": "telefonmøte"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Samtalereferat",
+            "tekst": "\nHilsen F_994323 E_994323"
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 14.52",
+              "beskrivelse": "NAV delte referatet"
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 14.52",
+              "beskrivelse": "NAV opprettet aktiviteten"
+            }
+          ]
+        }
+      }
+    ],
+    "Planlagt": [
+      {
+        "tittel": "Avklaring hos Tinn Kommune",
+        "type": "Avklaring",
+        "status": "Planlagt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Status for deltakelse",
+            "tekst": "Venter på oppstart"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arrangør",
+            "tekst": "Tinn komune"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": null
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "NEUTRAL",
+            "tekst": "Venter på oppstart"
+          },
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.24",
+              "beskrivelse": "NAV endret detaljer på aktiviteten"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.24",
+              "beskrivelse": "NAV flyttet aktiviteten fra Bruker er interessert til Planlagt"
+            },
+            {
+              "formattertTidspunkt": "19. februar 2024 kl. 15.19",
+              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
+            }
+          ]
+        }
+      },
+      {
+        "tittel": "d",
+        "type": "Stilling",
+        "status": "Planlagt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": "14. september 2023"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Frist",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arbeidsgiver",
+            "tekst": "null"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Kontaktperson",
+            "tekst": "d"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arbeidssted",
+            "tekst": "null"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": "null"
+          },
+          {
+            "stil": "LENKE",
+            "tittel": "Lenke til stillingsannonsen",
+            "tekst": "null"
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV endret tilstand til Ingen"
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV endret til dato på aktiviteten fra ingen dato til "
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV endret til dato på aktiviteten fra ingen dato til "
+            },
+            {
+              "formattertTidspunkt": "14. september 2023 kl. 14.14",
+              "beskrivelse": "NAV merket aktiviteten som \"Avtalt med NAV\""
+            },
+            {
+              "formattertTidspunkt": "14. september 2023 kl. 14.14",
+              "beskrivelse": "NAV opprettet aktiviteten"
+            }
+          ]
+        }
+      },
+      {
+        "tittel": "drgdf",
+        "type": "Møte med NAV",
+        "status": "Planlagt",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Dato",
+            "tekst": "19. desember 2023"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Klokkeslett",
+            "tekst": "10.00"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Møteform",
+            "tekst": "møte"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Varighet",
+            "tekst": "45 minutter"
+          },
+          {
+            "stil": "HEL_LINJE",
+            "tittel": "Møtested eller annen praktisk informasjon",
+            "tekst": "dgdf"
+          },
+          {
+            "stil": "HEL_LINJE",
+            "tittel": "Hensikt med møtet",
+            "tekst": "dfgdf"
+          },
+          {
+            "stil": "HEL_LINJE",
+            "tittel": "Forberedelser til møtet",
+            "tekst": "dfgdf"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Samtalereferat",
+            "tekst": ""
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV merket aktiviteten som \"Avtalt med NAV\""
+            },
+            {
+              "formattertTidspunkt": "15. desember 2023 kl. 07.52",
+              "beskrivelse": "NAV opprettet aktiviteten"
+            }
+          ]
+        }
+      }
+    ],
+    "Forslag": [
+      {
+        "tittel": "Avklaring hos Tinn Kommune",
+        "type": "Avklaring",
+        "status": "Forslag",
+        "detaljer": [
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Fra dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Til dato",
+            "tekst": ""
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Status for deltakelse",
+            "tekst": "Utkast til påmelding"
+          },
+          {
+            "stil": "HALV_LINJE",
+            "tittel": "Arrangør",
+            "tekst": "Tinn Kommune"
+          },
+          {
+            "stil": "PARAGRAF",
+            "tittel": "Beskrivelse",
+            "tekst": "null"
+          }
+        ],
+        "meldinger": [],
+        "etiketter": [
+          {
+            "stil": "AVTALT",
+            "tekst": "Avtalt med NAV"
+          }
+        ],
+        "eksterneHandlinger": [],
+        "historikk": {
+          "endringer": [
+            {
+              "formattertTidspunkt": "15. mars 2024 kl. 12.54",
+              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
+            }
+          ]
+        }
       }
     ]
   },
-  "dialogtråder": [
-    {
-      "overskrift": "Penger",
-      "meldinger": [
-        {
-          "avsender": "BRUKER",
-          "sendt": "05 februar 2024 kl. 02:29",
-          "lest": true,
-          "viktig": false,
-          "tekst": "Jeg liker NAV. NAV er snille!"
-        },
-        {
-          "avsender": "VEILEDER",
-          "sendt": "05 februar 2024 kl. 14:00",
-          "lest": true,
-          "viktig": false,
-          "tekst": "Så bra du synes det. "
-        }
-      ],
-      "egenskaper": []
-    },
-    {
-      "overskrift": "En annen dialogtråd",
-      "meldinger": [
-        {
-          "avsender": "BRUKER",
-          "sendt": "05 februar 2024 kl. 02:29",
-          "lest": true,
-          "viktig": false,
-          "tekst": "Hei veilederen min. Kan dere hjelpe meg med noe eller?"
-        }
-      ],
-      "egenskaper": []
-    },
-    {
-      "overskrift": "En viktig dialogtråd",
-      "meldinger": [
-        {
-          "avsender": "VEILEDER",
-          "sendt": "05 februar 2024 kl. 02:29",
-          "lest": true,
-          "viktig": true,
-          "tekst": "Dette er en veldig viktig melding"
-        }
-      ],
-      "egenskaper": []
-    }
-  ],
-  "mål": "Jeg vil få jobb"
+  "dialogtråder": [],
+  "mål": "q"
 }
