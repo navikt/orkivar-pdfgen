@@ -37,7 +37,25 @@
             "tekst": null
           }
         ],
-        "meldinger": [],
+        "dialogtråd": {
+          "overskrift" : "Penger",
+          "meldinger" : [{
+            "avsender" : "VEILEDER",
+            "sendt" : "5. februar 2024 kl. 02.31",
+            "lest" : true,
+            "viktig" : false,
+            "tekst" : "wehfuiehwf\n\nHilsen F_994188 E_994188"
+          }, {
+            "avsender" : "BRUKER",
+            "sendt" : "5. februar 2024 kl. 02.31",
+            "lest" : true,
+            "viktig" : false,
+            "tekst" : "Jada"
+          }],
+          "egenskaper" : [ ],
+          "indexSisteMeldingLestAvBruker" : 0,
+          "tidspunktSistLestAvBruker" : "5. mars 2024 kl. 14.31"
+        },
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -93,7 +111,33 @@
             "tekst": null
           }
         ],
-        "meldinger": [],
+        "dialogtråd": {
+          "overskrift" : "Penger",
+          "meldinger" : [
+            {
+              "avsender" : "VEILEDER",
+              "sendt" : "5. februar 2024 kl. 02.31",
+              "lest" : true,
+              "viktig" : false,
+              "tekst" : "wehfuiehwf\n\nHilsen F_994188 E_994188"
+            }, {
+              "avsender" : "BRUKER",
+              "sendt" : "5. februar 2024 kl. 02.31",
+              "lest" : true,
+              "viktig" : false,
+              "tekst" : "Jada"
+            }, {
+              "avsender" : "BRUKER",
+              "sendt" : "5. april 2024 kl. 02.31",
+              "lest" : true,
+              "viktig" : false,
+              "tekst" : "Jada"
+            }
+          ],
+          "egenskaper" : [ ],
+          "indexSisteMeldingLestAvBruker" : 0,
+          "tidspunktSistLestAvBruker" : "5. mars 2024 kl. 14.31"
+        },
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -151,7 +195,7 @@
             "tekst": null
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -219,7 +263,7 @@
             "tekst": "NAV forventer at du søker omtrent 5 stillinger i uken.\nDet er viktig at du søker på de jobbene du mener du er kvalifisert for. Det er også viktig å søke på mange stillinger, det øker sjansene dine til å finne en jobb.\nHer kan du finne ledige stillinger: https://arbeidsplassen.nav.no/stillinger"
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -273,7 +317,7 @@
             "tekst": "\nHilsen F_994323 E_994323"
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [],
         "eksterneHandlinger": [],
         "historikk": {
@@ -322,7 +366,7 @@
             "tekst": null
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "NEUTRAL",
@@ -392,7 +436,7 @@
             "tekst": "null"
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -471,7 +515,7 @@
             "tekst": ""
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -525,7 +569,7 @@
             "tekst": "null"
           }
         ],
-        "meldinger": [],
+        "dialogtråd": null,
         "etiketter": [
           {
             "stil": "AVTALT",
@@ -544,6 +588,18 @@
       }
     ]
   },
-  "dialogtråder": [],
+  "dialogtråder" : [ {
+    "overskrift" : "Penger",
+    "meldinger" : [ {
+      "avsender" : "BRUKER",
+      "sendt" : "05 februar 2024 kl. 02.29",
+      "lest" : true,
+      "viktig" : false,
+      "tekst" : "Jeg liker NAV. NAV er snille!"
+    } ],
+    "egenskaper" : [ ],
+    "indexSisteMeldingLestAvBruker" : null,
+    "tidspunktSistLestAvBruker" : null
+  } ],
   "mål": "q"
 }
