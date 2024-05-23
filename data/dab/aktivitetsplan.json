@@ -38,23 +38,26 @@
           }
         ],
         "dialogtråd": {
-          "overskrift" : "Penger",
-          "meldinger" : [{
-            "avsender" : "VEILEDER",
-            "sendt" : "5. februar 2024 kl. 02.31",
-            "lest" : true,
-            "viktig" : false,
-            "tekst" : "wehfuiehwf\n\nHilsen F_994188 E_994188"
-          }, {
-            "avsender" : "BRUKER",
-            "sendt" : "5. februar 2024 kl. 02.31",
-            "lest" : true,
-            "viktig" : false,
-            "tekst" : "Jada"
-          }],
-          "egenskaper" : [ ],
-          "indexSisteMeldingLestAvBruker" : 0,
-          "tidspunktSistLestAvBruker" : "5. mars 2024 kl. 14.31"
+          "overskrift": "Penger",
+          "meldinger": [
+            {
+              "avsender": "VEILEDER",
+              "sendt": "5. februar 2024 kl. 02.31",
+              "lest": true,
+              "viktig": false,
+              "tekst": "wehfuiehwf\n\nHilsen F_994188 E_994188"
+            },
+            {
+              "avsender": "BRUKER",
+              "sendt": "5. februar 2024 kl. 02.31",
+              "lest": true,
+              "viktig": false,
+              "tekst": "Jada"
+            }
+          ],
+          "egenskaper": [],
+          "indexSisteMeldingLestAvBruker": 0,
+          "tidspunktSistLestAvBruker": "5. mars 2024 kl. 14.31"
         },
         "etiketter": [
           {
@@ -112,31 +115,33 @@
           }
         ],
         "dialogtråd": {
-          "overskrift" : "Penger",
-          "meldinger" : [
+          "overskrift": "Penger",
+          "meldinger": [
             {
-              "avsender" : "VEILEDER",
-              "sendt" : "5. februar 2024 kl. 02.31",
-              "lest" : true,
-              "viktig" : false,
-              "tekst" : "wehfuiehwf\n\nHilsen F_994188 E_994188"
-            }, {
-              "avsender" : "BRUKER",
-              "sendt" : "5. februar 2024 kl. 02.31",
-              "lest" : true,
-              "viktig" : false,
-              "tekst" : "Jada"
-            }, {
-              "avsender" : "BRUKER",
-              "sendt" : "5. april 2024 kl. 02.31",
-              "lest" : true,
-              "viktig" : false,
-              "tekst" : "Jada"
+              "avsender": "VEILEDER",
+              "sendt": "5. februar 2024 kl. 02.31",
+              "lest": true,
+              "viktig": false,
+              "tekst": "wehfuiehwf\n\nHilsen F_994188 E_994188"
+            },
+            {
+              "avsender": "BRUKER",
+              "sendt": "5. februar 2024 kl. 02.31",
+              "lest": true,
+              "viktig": false,
+              "tekst": "Jada"
+            },
+            {
+              "avsender": "BRUKER",
+              "sendt": "5. april 2024 kl. 02.31",
+              "lest": true,
+              "viktig": false,
+              "tekst": "Jada"
             }
           ],
-          "egenskaper" : [ ],
-          "indexSisteMeldingLestAvBruker" : 0,
-          "tidspunktSistLestAvBruker" : "5. mars 2024 kl. 14.31"
+          "egenskaper": [],
+          "indexSisteMeldingLestAvBruker": 0,
+          "tidspunktSistLestAvBruker": "5. mars 2024 kl. 14.31"
         },
         "etiketter": [
           {
@@ -588,18 +593,51 @@
       }
     ]
   },
-  "dialogtråder" : [ {
-    "overskrift" : "Penger",
-    "meldinger" : [ {
-      "avsender" : "BRUKER",
-      "sendt" : "05 februar 2024 kl. 02.29",
-      "lest" : true,
-      "viktig" : false,
-      "tekst" : "Jeg liker NAV. NAV er snille!"
-    } ],
-    "egenskaper" : [ ],
-    "indexSisteMeldingLestAvBruker" : null,
-    "tidspunktSistLestAvBruker" : null
-  } ],
+  "dialogtråder": [
+    {
+      "overskrift": "Penger",
+      "meldinger": [
+        {
+          "avsender": "BRUKER",
+          "sendt": "05 februar 2024 kl. 02.29",
+          "lest": true,
+          "viktig": false,
+          "tekst": "Jeg liker NAV. NAV er snille!"
+        }
+      ],
+      "egenskaper": [],
+      "indexSisteMeldingLestAvBruker": null,
+      "tidspunktSistLestAvBruker": null
+    },
+    {
+      "overskrift": "Penger",
+      "meldinger": [
+        {
+          "avsender": "VEILEDER",
+          "sendt": "5. februar 2024 kl. 02.29",
+          "lest": true,
+          "viktig": false,
+          "tekst": "Du liker NAV. NAV er snille!"
+        },
+        {
+          "avsender": "BRUKER",
+          "sendt": "6. februar 2024 kl. 02.29",
+          "lest": true,
+          "viktig": false,
+          "tekst": "Du liker NAV. NAV er snille!"
+        },
+        {
+          "avsender": "VEILEDER",
+          "sendt": "7. februar 2024 kl. 02.29",
+          "lest": true,
+          "viktig": false,
+          "tekst": "Du liker NAV. NAV er snille!"
+        }
+      ],
+      "egenskaper": [],
+      "indexSisteMeldingLestAvBruker": 0,
+      "tidspunktSistLestAvBruker": "5. februar 2024 kl. 12.29"
+    }
+  ],
   "mål": "q"
 }
