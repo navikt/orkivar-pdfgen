@@ -341,7 +341,7 @@
     ],
     "Planlagt": [
       {
-        "tittel": "Avklaring hos Tinn Kommune",
+        "tittel": "Avklaring uten historikk",
         "type": "Avklaring",
         "status": "Planlagt",
         "detaljer": [
@@ -384,20 +384,7 @@
         ],
         "eksterneHandlinger": [],
         "historikk": {
-          "endringer": [
-            {
-              "formattertTidspunkt": "19. februar 2024 kl. 15.24",
-              "beskrivelse": "NAV endret detaljer på aktiviteten"
-            },
-            {
-              "formattertTidspunkt": "19. februar 2024 kl. 15.24",
-              "beskrivelse": "NAV flyttet aktiviteten fra Bruker er interessert til Planlagt"
-            },
-            {
-              "formattertTidspunkt": "19. februar 2024 kl. 15.19",
-              "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
-            }
-          ]
+          "endringer": []
         }
       },
       {
