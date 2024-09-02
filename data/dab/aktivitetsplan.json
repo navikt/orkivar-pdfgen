@@ -81,6 +81,10 @@
               "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
             }
           ]
+        },
+        "forhaandsorientering": {
+          "tekst": "Forhaandsorienteringstekst",
+          "tidspunktLest": "5. mars 2024 kl. 14.31"
         }
       },
       {
@@ -165,6 +169,10 @@
               "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
             }
           ]
+        },
+        "forhaandsorientering": {
+          "tekst": "Forhaandsorienteringstekst",
+          "tidspunktLest": null
         }
       }
     ],
@@ -235,7 +243,8 @@
               "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       },
       {
         "tittel": "Avtale om å søke jobber",
@@ -299,7 +308,8 @@
               "beskrivelse": "NAV opprettet aktiviteten"
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       },
       {
         "tittel": "gfd",
@@ -336,7 +346,8 @@
               "beskrivelse": "NAV opprettet aktiviteten"
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       }
     ],
     "Planlagt": [
@@ -385,6 +396,10 @@
         "eksterneHandlinger": [],
         "historikk": {
           "endringer": []
+        },
+        "forhaandsorientering": {
+          "tekst": "Forhaandsorienteringstekst",
+          "tidspunktLest": "5. mars 2024 kl. 14.31"
         }
       },
       {
@@ -459,7 +474,8 @@
               "beskrivelse": "NAV opprettet aktiviteten"
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       },
       {
         "tittel": "drgdf",
@@ -526,7 +542,8 @@
               "beskrivelse": "NAV opprettet aktiviteten"
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       }
     ],
     "Forslag": [
@@ -576,7 +593,8 @@
               "beskrivelse": "NAV opprettet aktiviteten. Den er automatisk merket som \"Avtalt med NAV\""
             }
           ]
-        }
+        },
+        "forhaandsorientering": null
       }
     ]
   },

@@ -5,9 +5,17 @@
                 {{ this.tekst }}
             </div>
         {{/each}}
+        {{#if this.forhaandsorientering }}
+            {{#eq this.forhaandsorientering.tidspunktLest null}}
+            <div class="etikett etikett-ulest">
+                Ulest
+            </div>
+            {{/eq}}
+        {{/if}}
     </div>
     <div class="type">{{this.type}}</div>
     <h2 class="tittel">{{this.tittel}}</h2>
+        {{> dab/forhaandsorienteringPartial this.forhaandsorientering}}
     <div class="detaljer">
         {{#each this.detaljer}}
             {{#eq this.stil "LENKE"}}

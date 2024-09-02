@@ -1,0 +1,11 @@
+{{#if forhaandsorientering}}
+    <div class="forhaandsorientering">
+        <h4>Informasjon om ansvaret ditt</h4>
+        <p>{{this.tekst}}</p>
+        {{#if this.tidspunktLest}}
+            <p>Lest av bruker: {{this.tidspunktLest}}</p>
+        {{else}}
+            <div class="forhaandsorientering-knapp">Ok, jeg har lest beskjeden</div>
+        {{/if}}
+    </div>
+{{/if}}
