@@ -1,3 +1,6 @@
+## PDF-generering for aktivtetsplanen og dialogen
+Bruker https://github.com/navikt/pdfgen
+
 ## Test lokalt
 
 1. Start colima/docker deamon 😈
