@@ -6,9 +6,6 @@ on:
       env:
         required: true
         type: string
-    secrets:
-      NAIS_WORKLOAD_IDENTITY_PROVIDER:
-        required: true
 
 jobs:
   build:
@@ -28,8 +25,6 @@ jobs:
         id: docker-build-push
         with:
           team: dab
-          identity_provider: ${{ secrets.NAIS_WORKLOAD_IDENTITY_PROVIDER }}
-          project_id: ${{ vars.NAIS_MANAGEMENT_PROJECT_ID }}
 
   deploy:
     name: Deploy to NAIS
