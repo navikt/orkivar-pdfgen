@@ -36,3 +36,6 @@ spec:
         - application: orkivar
           namespace: dab
           cluster: prod-gcp
+  env:
+      - name: _JAVA_OPTIONS
+        value: "-XX:InitialRAMPercentage=50.0 -XX:MaxRAMPercentage=80.0"
