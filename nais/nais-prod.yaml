@@ -38,4 +38,4 @@ spec:
           cluster: prod-gcp
   env:
       - name: _JAVA_OPTIONS
-        value: "-XX:InitialRAMPercentage=50.0 -XX:MaxRAMPercentage=80.0"
+        value: "-XX:InitialRAMPercentage=50.0 -XX:MaxRAMPercentage=70.0"
