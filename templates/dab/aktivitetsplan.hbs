@@ -170,6 +170,18 @@
             border: 1px solid #ff9100;
             background-color: #ff9100;
         }
+        .valgt-filter {
+            font-weight: 400;
+            padding: 1px 6px 3px 6px;
+            line-height: 20px;
+            display: inline-block;
+            font-size: 14px;
+            white-space: nowrap;
+            border: 1px solid #949292;
+            background-color: #cecece;
+            border-radius: 4px;
+            margin-right: 8px;
+        }
         .dialogOverskrift, .historikkOverskrift {
             margin-bottom: 8px;
             margin-top: 16px;
@@ -278,6 +290,14 @@
         Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
     {{/if}}
 </p>
+{{#if brukteFiltre}}
+    <h3>Filtre som er brukt</h3>
+    {{#each brukteFiltre}}
+    <li style="margin-bottom: 8px;">
+        {{@key}}: {{#each this}}<div class="valgt-filter">{{this}}</div>{{/each}}
+    </li>
+    {{/each}}
+{{/if}}
 {{#if tekstTilBruker}}
     <h3>Aktivitetsplan</h3>
     <p>{{tekstTilBruker}}</p>

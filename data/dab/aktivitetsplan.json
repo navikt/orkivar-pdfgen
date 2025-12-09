@@ -4,6 +4,10 @@
   "oppfølgingsperiodeStart": "9. juni 2023",
   "oppfølgingsperiodeSlutt": null,
   "oppfølgingsperiodeId": "8b8eeecc-c371-4c4a-9cf1-561b0e1e8e82",
+  "brukteFiltre": {
+    "Aktivitetstype": ["Jobb jeg har nå", "Stilling"],
+    "Avtalt aktivitet": ["Avtalt med Nav"]
+  },
   "tekstTilBruker": "Her finner du avtalte aktiviteter med Nav du skal gjennomføre for å nå målet ditt. Gi beskjed til Nav hvis det skjer endringer i situasjonen din eller hvis du ikke kan gjennomføre en aktivitet.",
   "aktiviteter": {
     "Avbrutt": [
