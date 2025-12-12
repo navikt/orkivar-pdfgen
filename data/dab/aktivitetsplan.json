@@ -9,6 +9,8 @@
     "Avtalt aktivitet": ["Avtalt med Nav"]
   },
   "tekstTilBruker": "Her finner du avtalte aktiviteter med Nav du skal gjennomføre for å nå målet ditt. Gi beskjed til Nav hvis det skjer endringer i situasjonen din eller hvis du ikke kan gjennomføre en aktivitet.",
+  "journalfoeringstidspunkt" : "12. desember 2025 kl. 10.30",
+  "dagensDato" : "12. desember 2025",
   "aktiviteter": {
     "Avbrutt": [
       {

@@ -62,8 +62,21 @@
             display: inline-block;
         }
 
+        .header {
+            margin-bottom: 4rem;
+            margin-top: 4rem;
+        }
+
         .personinfo {
-            margin-top: 2rem;
+            float: left;
+            width: 50%;
+        }
+
+        .dato-enhet {
+            float: right;
+            width: 50%;
+            text-align: right;
+            vertical-align: text-top;
         }
 
         .aktivitet, .dialogtråd {
@@ -278,12 +291,17 @@
         </clipPath>
     </defs>
 </svg>
-<div class="personinfo">
-    <b>{{ navn }}</b><br/>
-    F.nr: {{ fnr }}
+<div class="header">
+    <div class="personinfo">
+        <b>{{ navn }}</b><br/>
+        F.nr: {{ fnr }}
+    </div>
+    <div class="dato-enhet">
+        {{ dagensDato }}
+    </div>
 </div>
 
-<p class="margin-top:4px ">
+<p>
     {{#if oppfølgingsperiodeSlutt }}
         Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }} og som ble avsluttet {{ oppfølgingsperiodeSlutt }}.
     {{else}}
