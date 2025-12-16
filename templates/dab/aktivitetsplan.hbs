@@ -302,13 +302,6 @@
     </div>
 </div>
 
-<p>
-    {{#if oppfølgingsperiodeSlutt }}
-        Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }} og som ble avsluttet {{ oppfølgingsperiodeSlutt }}.
-    {{else}}
-        Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
-    {{/if}}
-</p>
 {{#if brukteFiltre}}
     <h3>Informasjon som vises</h3>
     {{#each brukteFiltre}}
@@ -316,7 +309,16 @@
         {{@key}}: {{#each this}}<div class="valgt-filter">{{this}}</div>{{/each}}
     </li>
     {{/each}}
+{{else}}
+    <p>
+        {{#if oppfølgingsperiodeSlutt }}
+            Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }} og som ble avsluttet {{ oppfølgingsperiodeSlutt }}.
+        {{else}}
+            Dette dokumentet viser et øyeblikksbilde av hvordan aktivitetsplanen og dialogen var {{ journalfoeringstidspunkt }} for oppfølgingsperioden som startet {{ oppfølgingsperiodeStart }}.
+        {{/if}}
+    </p>
 {{/if}}
+
 {{#if tekstTilBruker}}
     <h3>Aktivitetsplan</h3>
     <p>{{tekstTilBruker}}</p>
