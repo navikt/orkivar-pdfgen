@@ -47,7 +47,7 @@
 // ─── NAV logo ────────────────────────────────────────────────────────────────
 // .header-ikon { width: 20%; margin: 0 auto } — centered, 20% of content width
 #align(center)[
-  #image("/resources/NavLogoRed.svg", width: 20%)
+  #image("/resources/NavLogoRed.svg", width: 20%, alt: "NAV logo")
 ]
 
 // ─── Document header ─────────────────────────────────────────────────────────
