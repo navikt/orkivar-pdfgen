@@ -1,5 +1,5 @@
-#import "aktivitetPartial.typ": render-aktivitet
-#import "meldingerPartial.typ": render-meldinger
+#import "/templates/dab/aktivitetPartial.typ": render-aktivitet
+#import "/templates/dab/meldingerPartial.typ": render-meldinger
 
 // JSON data injected by pdfgenrs at /data.json
 #let data = json("/data/dab/aktivitetsplan.json")

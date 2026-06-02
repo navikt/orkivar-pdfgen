@@ -1,6 +1,6 @@
-#import "forhaandsorienteringPartial.typ": render-forhaandsorientering
-#import "historikkPartial.typ": render-historikk
-#import "meldingerPartial.typ": render-meldinger
+#import "/templates/dab/forhaandsorienteringPartial.typ": render-forhaandsorientering
+#import "/templates/dab/historikkPartial.typ": render-historikk
+#import "/templates/dab/meldingerPartial.typ": render-meldinger
 
 // Converts newlines to Typst linebreaks; handles none/"null" gracefully.
 #let breaklines(t) = {
