@@ -39,7 +39,7 @@
 // Section heading matching h3 { font-size: 28px = 21pt; font-weight: 500; margin-bottom: 8px }
 #let h3(content) = block(
   above: 18pt,
-  below: 6pt,
+  below: 12pt,
 )[
   #text(size: 21pt, weight: "medium")[#content]
 ]

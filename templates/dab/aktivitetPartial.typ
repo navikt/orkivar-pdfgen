@@ -33,7 +33,7 @@
   box(
     fill: cfg.fill,
     stroke: 1pt + cfg.stroke,
-    inset: (left: 4.5pt, right: 4.5pt, top: 0.75pt, bottom: 2.25pt),
+    inset: (left: 6pt, right: 6pt, top: 3pt, bottom: 5pt),
   )[
     #text(size: 10.5pt, fill: cfg.fg, weight: "regular")[#tekst]
   ]

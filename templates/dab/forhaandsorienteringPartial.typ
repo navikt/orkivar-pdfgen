@@ -10,8 +10,8 @@
     fill: rgb("#FFECCC"),
     stroke: 1pt + rgb("#C77300"),
     radius: 3pt,
-    inset: (left: 12pt, right: 12pt, top: 12pt, bottom: 3pt),
-    below: 12pt,
+    inset: (left: 12pt, right: 12pt, top: 12pt, bottom: 14pt),
+    below: 16pt,
   )[
     // h4 { font-size: 22px = 16.5pt; font-weight: 500 }
     #text(size: 16.5pt, weight: "medium")[Informasjon om ansvaret ditt]
