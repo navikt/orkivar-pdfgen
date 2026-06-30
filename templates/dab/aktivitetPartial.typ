@@ -93,7 +93,7 @@
       [
         // .type { text-transform: uppercase; font-size: 14px = 10.5pt }
         #text(size: 10.5pt)[#upper(aktivitet.at("type", default: ""))]
-        #v(4pt, weak: true)
+        #v(8pt, weak: true)
         // h2.tittel { font-size: 24px = 18pt; font-weight: bolder }
         #text(size: 18pt, weight: "bold")[#aktivitet.at("tittel", default: "")]
       ],

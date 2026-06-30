@@ -22,11 +22,13 @@
     let avsender-navn = if is-bruker { navn } else { "NAV" }
 
     // .melding-BRUKER has margin-left: 32px = 24pt
+    // 6pt left inset creates a gap between the border and the text content
     block(
       width: 100%,
       above: 12pt,
       below: 0pt,
-      inset: (left: if is-bruker { 24pt } else { 0pt }),
+      stroke: (left: 1.5pt + luma(185)),
+      inset: (left: if is-bruker { 30pt } else { 6pt }),
     )[
       #text(weight: "semibold")[#avsender-navn - #melding.at("sendt", default: "")]
       #parbreak()
