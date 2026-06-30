@@ -29,6 +29,7 @@
       inset: 6pt,
       above: 14pt,
       below: 0pt,
+      width: 100%
     )[
       #text(weight: "semibold")[
         #avsender-navn - #melding.at("sendt", default: "")
@@ -41,7 +42,7 @@
     let right = if is-bruker { chat-bubble } else { [] }
 
     grid(
-      columns: if is-bruker { (1fr, 3fr) } else { (3fr, 1fr) },
+      columns: if is-bruker { (1fr, 4fr) } else { (4fr, 1fr) },
       gutter: 0pt,
       left,
       right,
