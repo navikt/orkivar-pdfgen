@@ -183,11 +183,12 @@
         width: 100%,
         above: 0pt,
         below: 0pt,
+        inset: (top: 6pt),
         stroke: (top: 1pt + rgb("#cbcfd5")),
       )[
         // .dialogOverskrift { margin-bottom: 8px; margin-top: 16px }
         // .h5 { font-size: 20px = 15pt; font-weight: 600 }
-        #block(above: 16pt, below: 6pt)[
+        #block(above: 20pt, below: 6pt)[
           // Chat-bubble icon approximated with Unicode
           #text(size: 13pt)[💬] #h(2pt)
           #text(size: 15pt, weight: "semibold")[Dialog]
