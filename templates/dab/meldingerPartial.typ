@@ -39,13 +39,14 @@
 
     grid(
       columns: if is-bruker { (1fr, 3fr) } else { (3fr, 1fr) },
-      gutter: 0pt,
+      gutter: 0pt
+    )[
       if is-bruker {
         [][#chat-bubble]
       } else {
         [#chat-bubble][]
       }
-    )
+    ]
 
     // After the message at indexSisteMeldingLestAvBruker, show the "sist lest" indicator
     if index-sist-lest != none and index-sist-lest == i {
