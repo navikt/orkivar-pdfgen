@@ -11,4 +11,4 @@ docker run \
         -e DISABLE_PDF_GET=false \
         -it \
         --rm \
-        ghcr.io/navikt/pdfgenrs:0.1.77
+        ghcr.io/navikt/pdfgenrs:0.1.79
