@@ -37,14 +37,14 @@
       #breaklines(melding.at("tekst", default: ""))
     ]
 
+    let left = if is-bruker { [] } else { chat-bubble }
+    let right = if is-bruker { chat-bubble } else { [] }
+
     grid(
       columns: if is-bruker { (1fr, 3fr) } else { (3fr, 1fr) },
       gutter: 0pt,
-      if is-bruker {
-        [][chat-bubble]
-      } else {
-        [chat-bubble][]
-      }
+      left,
+      right,
     )
 
     // After the message at indexSisteMeldingLestAvBruker, show the "sist lest" indicator
