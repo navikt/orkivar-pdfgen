@@ -41,9 +41,9 @@
       columns: if is-bruker { (1fr, 3fr) } else { (3fr, 1fr) },
       gutter: 0pt,
       if is-bruker {
-        (..[][#chat-bubble])
+        [][chat-bubble]
       } else {
-        (..[#chat-bubble][])
+        [chat-bubble][]
       }
     )
 
