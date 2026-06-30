@@ -187,7 +187,7 @@
       )[
         // .dialogOverskrift { margin-bottom: 8px; margin-top: 16px }
         // .h5 { font-size: 20px = 15pt; font-weight: 600 }
-        #block(above: 12pt, below: 6pt)[
+        #block(above: 16pt, below: 6pt)[
           // Chat-bubble icon approximated with Unicode
           #text(size: 13pt)[💬] #h(2pt)
           #text(size: 15pt, weight: "semibold")[Dialog]

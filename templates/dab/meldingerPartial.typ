@@ -23,20 +23,28 @@
 
     // .melding-BRUKER has margin-left: 32px = 24pt
     // 6pt left inset creates a gap between the border and the text content
-    align(
-      if is-bruker { right } else { left },
-      block(
-        width: 75%,
-        above: 14pt,
-        below: 0pt,
-        radius: 4pt,
-        fill: (if is-bruker { rgb(216, 249, 255) } else { luma(230) }),
-        inset: 6pt,
-      )[
-        #text(weight: "semibold")[#avsender-navn - #melding.at("sendt", default: "")]
-        #parbreak()
-        #breaklines(melding.at("tekst", default: ""))
+    let chat-bubble = block(
+      radius: 4pt,
+      fill: if is-bruker { rgb(216, 249, 255) } else { luma(230) },
+      inset: 6pt,
+      above: 14pt,
+      below: 0pt,
+    )[
+      #text(weight: "semibold")[
+        #avsender-navn - #melding.at("sendt", default: "")
       ]
+      #parbreak()
+      #breaklines(melding.at("tekst", default: ""))
+    ]
+
+    grid(
+      columns: if is-bruker { (1fr, 3fr) } else { (3fr, 1fr) },
+      gutter: 0pt,
+      if is-bruker {
+        [][#chat-bubble]
+      } else {
+        [#chat-bubble][]
+      }
     )
 
     // After the message at indexSisteMeldingLestAvBruker, show the "sist lest" indicator
