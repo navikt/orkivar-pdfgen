@@ -50,7 +50,7 @@
 
     // After the message at indexSisteMeldingLestAvBruker, show the "sist lest" indicator
     if index-sist-lest != none and index-sist-lest == i {
-      block(above: 6pt, below: 0pt, inset: (left: 12pt))[
+      block(above: 6pt, below: 6pt, inset: (left: 12pt))[
         #text(size: 10.5pt, style: "italic")[
           #sym.arrow.t #h(1pt) Lest av bruker #tidspunkt-sist-lest
         ]
