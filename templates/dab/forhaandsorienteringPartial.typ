@@ -24,7 +24,7 @@
     ] else [
       // .forhaandsorientering-knapp { border: 2px solid #0067C5; border-radius: 4px;
       //   color: #0067C5; padding: 12px 20px; font-weight: 500; display: inline-block; margin-bottom: 12px }
-      #block(above: 0pt, below: 9pt)[
+      #block(above: 9pt, below: 9pt)[
         #box(
           stroke: 2pt + rgb("#0067C5"),
           radius: 3pt,

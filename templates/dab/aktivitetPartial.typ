@@ -93,7 +93,7 @@
       [
         // .type { text-transform: uppercase; font-size: 14px = 10.5pt }
         #text(size: 10.5pt)[#upper(aktivitet.at("type", default: ""))]
-        #v(3pt, weak: true)
+        #v(4pt, weak: true)
         // h2.tittel { font-size: 24px = 18pt; font-weight: bolder }
         #text(size: 18pt, weight: "bold")[#aktivitet.at("tittel", default: "")]
       ],
@@ -108,7 +108,7 @@
           box(
             fill: rgb("#ff9100"),
             stroke: 1pt + rgb("#ff9100"),
-            inset: (left: 4.5pt, right: 4.5pt, top: 0.75pt, bottom: 2.25pt),
+            inset: (left: 6pt, right: 6pt, top: 3pt, bottom: 5pt),
           )[
             #text(size: 10.5pt, fill: white)[Ulest]
           ]
@@ -136,6 +136,7 @@
           grid(
             columns: (1fr, 1fr),
             column-gutter: 8pt,
+            row-gutter: 8pt,
             render-detalj(d),
             render-detalj(d2),
           )
