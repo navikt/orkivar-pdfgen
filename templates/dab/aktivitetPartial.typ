@@ -203,7 +203,8 @@
       block(
         width: 100%,
         above: 0pt,
-        below: 0pt,
+        below: pt,
+        inset: (top: 6pt),
         stroke: (top: 1pt + rgb("#cbcfd5")),
       )[
         // .historikkOverskrift { margin-bottom: 8px; margin-top: 16px }
