@@ -18,7 +18,7 @@
 
   // .historikkHendelse { margin-top: 8px }
   for endring in endringer {
-    block(above: 6pt, below: 0pt)[
+    block(above: 12pt, below: 0pt)[
       #text(weight: "semibold")[#endring.at("formattertTidspunkt", default: "")]
       #linebreak()
       #breaklines(endring.at("beskrivelse", default: ""))

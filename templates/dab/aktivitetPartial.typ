@@ -207,7 +207,7 @@
         stroke: (top: 1pt + rgb("#cbcfd5")),
       )[
         // .historikkOverskrift { margin-bottom: 8px; margin-top: 16px }
-        #block(above: 12pt, below: 6pt)[
+        #block(above: 16pt, below: 12pt)[
           // Clock icon approximated with Unicode
           #text(size: 13pt)[🕐] #h(2pt)
           #text(size: 15pt, weight: "semibold")[Historikk]
