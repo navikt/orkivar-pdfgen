@@ -203,7 +203,7 @@
       block(
         width: 100%,
         above: 0pt,
-        below: pt,
+        below: 0pt,
         inset: (top: 6pt),
         stroke: (top: 1pt + rgb("#cbcfd5")),
       )[
