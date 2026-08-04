@@ -21,6 +21,7 @@ jobs:
     name: Build
     uses: ./.github/workflows/build.yml
   dev:
+    needs: build
     name: Deploy to dev
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
@@ -28,6 +29,7 @@ jobs:
       env: dev
       image: ${{ needs.build.outputs.image }}
   prod:
+    needs: build
     name: Deploy to prod
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
