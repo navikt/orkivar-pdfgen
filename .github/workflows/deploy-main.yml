@@ -18,12 +18,14 @@ permissions:
 
 jobs:
   dev:
+    needs: build
     name: Deploy to dev
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
     with:
       env: dev
   prod:
+    needs: build
     name: Deploy to prod
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
