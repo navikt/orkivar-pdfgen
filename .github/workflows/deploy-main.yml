@@ -17,15 +17,20 @@ permissions:
   id-token: write
 
 jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
   dev:
     name: Deploy to dev
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
     with:
       env: dev
+      image: ${{ needs.build.outputs.image }}
   prod:
     name: Deploy to prod
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
     with:
       env: prod
+      image: ${{ needs.build.outputs.image }}

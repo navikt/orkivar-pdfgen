@@ -1,0 +1,27 @@
+name: Build
+
+on:
+  workflow_call:
+    outputs:
+      image:
+        description: 'The Docker image built by this workflow'
+        value: ${{ jobs.build.outputs.image }}
+
+jobs:
+  build:
+    name: Build and push Docker container
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    outputs:
+      image: ${{ steps.docker-build-push.outputs.image }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+      - name: docker-build-push
+        uses: nais/docker-build-push@v0
+        id: docker-build-push
+        with:
+          team: dab
