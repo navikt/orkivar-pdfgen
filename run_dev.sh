@@ -8,7 +8,7 @@ docker run \
         -v $CURRENT_PATH/data:/app/data \
         -v $CURRENT_PATH/resources:/app/resources \
         -p 8080:8080 \
-        -e DISABLE_PDF_GET=false \
+        -e DEV_MODE=true \
         -it \
         --rm \
-        ghcr.io/navikt/pdfgenrs:0.1.79
+        ghcr.io/navikt/pdfgenrs:1.0.20
