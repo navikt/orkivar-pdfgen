@@ -4,6 +4,10 @@
 // JSON data injected by pdfgenrs at /data.json
 #let data = json("/data/dab/aktivitetsplan.json")
 
+// PDF/UA-1 requires a document title to be present in the metadata.
+#let tittel-dato = datetime.today().display("[day].[month].[year repr:last_two]")
+#set document(title: "Aktivitetsplan" + if data.at("navn", default: "") != "" { " - " + data.at("navn") } else { "" } + " - " + tittel-dato)
+
 // ─── Page setup ──────────────────────────────────────────────────────────────
 // @page margins: right/left 80px, top/bottom 77px (1px = 0.75pt at 96 dpi)
 #set page(
