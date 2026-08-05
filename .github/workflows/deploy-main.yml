@@ -17,6 +17,9 @@ permissions:
   id-token: write
 
 jobs:
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml
   dev:
     needs: build
     name: Deploy to dev
@@ -24,6 +27,7 @@ jobs:
     secrets: inherit
     with:
       env: dev
+      image: ${{ needs.build.outputs.image }}
   prod:
     needs: build
     name: Deploy to prod
@@ -31,3 +35,4 @@ jobs:
     secrets: inherit
     with:
       env: prod
+      image: ${{ needs.build.outputs.image }}

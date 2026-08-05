@@ -1,5 +1,5 @@
 ## PDF-generering for aktivtetsplanen og dialogen
-Bruker https://github.com/navikt/pdfgen
+Bruker https://github.com/navikt/pdfgenrs
 
 ## Test lokalt
 
