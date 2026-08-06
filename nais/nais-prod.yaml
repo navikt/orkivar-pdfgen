@@ -19,7 +19,7 @@ spec:
     initialDelay: 10
   prometheus:
     enabled: true
-    path: /metrics
+    path: /internal/metrics
   replicas:
     min: 2
     max: 2
