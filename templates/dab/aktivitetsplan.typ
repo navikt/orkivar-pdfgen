@@ -23,7 +23,7 @@
 )
 
 // ─── Typography ──────────────────────────────────────────────────────────────
-#set text(font: ("Source Sans Pro", "Noto Color Emoji", "DejaVu Sans", "Noto Sans Myanmar"), fill: rgb("#262626"), size: 12pt)
+#set text(font: ("Source Sans Pro", "Noto Color Emoji", "DejaVu Sans", "Noto Sans JP", "Noto Sans Myanmar"), fill: rgb("#262626"), size: 12pt)
 
 // Suppress default paragraph leading so spacing is controlled explicitly
 #set par(leading: 0.65em)

@@ -28,6 +28,13 @@
     "subset": false
   },
   {
+    "family": "Noto Sans JP",
+    "path": "NotoSansJP-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
     "family": "Noto Sans Myanmar",
     "path": "NotoSansMyanmar-Regular.ttf",
     "weight": 400,
