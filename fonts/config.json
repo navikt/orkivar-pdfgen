@@ -12,5 +12,40 @@
     "weight": 700,
     "style": "NORMAL",
     "subset": false
+  },
+  {
+    "family": "Noto Color Emoji",
+    "path": "NotoColorEmoji-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "DejaVu Sans",
+    "path": "DejaVuSans.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "Noto Sans JP",
+    "path": "NotoSansJP-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "Noto Sans Myanmar",
+    "path": "NotoSansMyanmar-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "Noto Sans Myanmar",
+    "path": "NotoSansMyanmar-Bold.ttf",
+    "weight": 700,
+    "style": "NORMAL",
+    "subset": false
   }
 ]
