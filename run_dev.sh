@@ -11,4 +11,4 @@ docker run \
         -e DEV_MODE=true \
         -it \
         --rm \
-        ghcr.io/navikt/pdfgenrs:1.0.20
+        ghcr.io/navikt/pdfgenrs:1.0.38

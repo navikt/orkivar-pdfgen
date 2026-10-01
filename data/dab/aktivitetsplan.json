@@ -410,7 +410,7 @@
         }
       },
       {
-        "tittel": "d",
+        "tittel": "Jobb som in-house-konsulent",
         "type": "Stilling",
         "status": "Planlagt",
         "detaljer": [
@@ -432,17 +432,17 @@
           {
             "stil": "HALV_LINJE",
             "tittel": "Kontaktperson",
-            "tekst": "d"
+            "tekst": "Einar Førde"
           },
           {
             "stil": "HALV_LINJE",
             "tittel": "Arbeidssted",
-            "tekst": "null"
+            "tekst": "Hyllestad"
           },
           {
             "stil": "PARAGRAF",
             "tittel": "Beskrivelse",
-            "tekst": "null"
+            "tekst": "🫪"
           },
           {
             "stil": "LENKE",
