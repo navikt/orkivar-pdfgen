@@ -47,5 +47,19 @@
     "weight": 700,
     "style": "NORMAL",
     "subset": false
+  },
+  {
+    "family": "Noto Sans Devanagari",
+    "path": "NotoSansDevanagari-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "Noto Sans Devanagari",
+    "path": "NotoSansDevanagari-Bold.ttf",
+    "weight": 700,
+    "style": "NORMAL",
+    "subset": false
   }
 ]
