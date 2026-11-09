@@ -61,5 +61,12 @@
     "weight": 700,
     "style": "NORMAL",
     "subset": false
+  },
+  {
+    "family": "Noto Sans Bengali",
+    "path": "NotoSansBengali-Regular.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
   }
 ]
